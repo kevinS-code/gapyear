@@ -1,4 +1,4 @@
-#open broswer.py
+#openbroswer.py
 import pyautogui
 import time
 import webbrowser
@@ -29,3 +29,4 @@ def Search(word):
 Search('singapore')
 Search('usa')
 Search('china')
+#################################
