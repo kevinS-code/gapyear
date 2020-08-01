@@ -7,10 +7,10 @@ import pyperclip as cp
 #เช่นในกรณีนี้ให้ import pyperclip as cp
 #คำสั่งที่เป็น pyperclip.x(y) จะเขียนแค่ cp.x(y)
 #ถ้าเปลี่ยนคำหลัง as ว่า SG จะเขียนเป็น SG.x(y) (จะเป็นรูปแบบนี้ import pyperclip as SG)
-#chrome = (269,743)#เป็นการกำหนดตัวแปร z=(x,y)ค่า z คือชื่่อตัวแปร ค่า x,y ในวงเล็บ() คือค่าแกน x แกน y
 #ถ้าใช่คำสั่ง as แทนตัวแปรจะไม่สามารถกลับไปใช้ตัวแปรเดิมได้
 #เช่น import pyperclip as cp ต้องใช่ cp จะใช่ pyperclip ไม่ได้
 #ไม่งั่นจะขึ้น Error (จะเป็นรูปแบบนี้ NameError: name 'pyperclick' is not defined)
+#chrome = (269,743)#เป็นการกำหนดตัวแปร z=(x,y)ค่า z คือชื่่อตัวแปร ค่า x,y ในวงเล็บ() คือค่าแกน x แกน y
 #pyautogui.click(chrome)#คำสั่ง pyautogui.click(z)จะคลิกไปยังตัวแปรที่เรากำหนด
 #ซึ่งคอมแต่ละคนตัวแปรก็อาจไม่ได้อยู่ตำแหน่งเดียวกัน
 url = 'https://www.google.com/'
