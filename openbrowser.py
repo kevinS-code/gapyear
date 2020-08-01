@@ -8,7 +8,7 @@ import pyperclip as cp
 url = 'https://www.google.com/'
 webbrowser.open(url)
 
-
+#time.sleep(x) สามารถเปลี่ยนxได้ถ้าBrowserใครเปิดช้า
 time.sleep(3)
 pyautogui.write('Thailand')
 pyautogui.press('enter')
