@@ -16,7 +16,7 @@ v_long  = StringVar()
 
 img = PhotoImage(file='football.png').subsample(3)
 IM1 = ttk.Label(GUI,image=img)#GUI คือสิ่งที่เราจะเอาองค์ประกอบต่างๆเข้าไปวาง เราสามารถกำหนดชื่อตัวแปรแล้วเท่ากับคำสั่ง Fram() และ .place,.pack อะไรก็ได้ตามด้วยค่า x,y หรือต่ำแหน่งที่เราต้องการให้อยู่
-IM1.place(x=100,y=25) #ใช้packได้ pack(padx=...,pady...)>>>pack(ipadx=...,ipady=...) #pad ระยะห่างต่ำแหน่งของปุ่ม #ipad ขนาดของปุ่ม #pad กับ ipad ใช้ได้แค่กับ pack
+IM1.place(x=100,y=25) #ใช้packได้ pack(padx=...,pady=...)>>>pack(ipadx=...,ipady=...) #pad ระยะห่างต่ำแหน่งของปุ่ม #ipad ขนาดของปุ่ม #pad กับ ipad ใช้ได้แค่กับ pack
 
 
 E1 = ttk.Entry(GUI,textvariable=v_width,font=FONT) #E1 ชื่อช่องเก็บ
